@@ -6,7 +6,7 @@ SRC_DIR := src
 INC_DIR := include
 
 VERBOSE := 0
-LIBS := xcb-atom xcb-randr
+LIBS := xcb-atom
 
 PREFIX := /usr/local
 CFLAGS := -Ofast -I. -I$(INC_DIR) -std=c99
