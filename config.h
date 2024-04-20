@@ -18,11 +18,11 @@
 
 // Define blocks for the status feed as X(cmd, interval, signal).
 #define BLOCKS(X)         \
-    X("dwmb-curr_song",	 0  , 2)  \
-    X("dwmb-volume",	 0  , 1)  \
-    X("dwmb-memory",	 10 , 0)  \
-    X("dwmb-cpu_temp",	 10 , 0)  \
-    X("dwmb-date",	 180, 0)  \
-    X("dwmb-clock",	 1  , 0)  \
-    X("dwmb-battery",	 30 , 0)  
+    X("", "dwmb-curr_song",	 0  , 2)  \
+    X("", "dwmb-volume",	 0  , 1)  \
+    X("", "dwmb-memory",	 10 , 0)  \
+    X("", "dwmb-cpu_temp",	 10 , 0)  \
+    X("", "dwmb-date",	 180, 0)  \
+    X("", "dwmb-clock",	 1  , 0)  \
+    X("", "dwmb-battery",	 30 , 0)  
 #endif  // CONFIG_H
